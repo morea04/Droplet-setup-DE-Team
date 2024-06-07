@@ -1,4 +1,3 @@
-Here is the README content formatted for easy copying into your code editor:
 
 ```markdown
 # Setting Up a Droplet with Conda and Dagster on Digital Ocean
@@ -91,4 +90,3 @@ You have now successfully set up a Digital Ocean droplet with SSH access through
 Feel free to reach out if you have any questions or run into any issues!
 ```
 
-You can now copy and paste this directly into your README file in your code editor.
