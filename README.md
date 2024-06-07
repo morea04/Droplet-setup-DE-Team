@@ -1,3 +1,5 @@
+Here is the README content formatted for easy copying into your code editor:
+
 ```markdown
 # Setting Up a Droplet with Conda and Dagster on Digital Ocean
 
@@ -87,79 +89,6 @@ Once you've completed the steps in the video, you should be able to connect to y
 You have now successfully set up a Digital Ocean droplet with SSH access through VS Code, installed Conda, created a new Conda environment, and set up a Dagster project. You can now start developing and running your data pipelines with Dagster.
 
 Feel free to reach out if you have any questions or run into any issues!
-
-## Additional Steps for Setting Up the Environment
-
-### Install Conda
-
-```sh
-bash ./Miniconda3-latest-Linux-x86_64.sh
 ```
 
-Follow the on-screen instructions and provide access where needed.
-
-### Remove the installation file
-
-```sh
-rm ./Miniconda3-latest-Linux-x86_64.sh
-```
-
-### Verify Conda installation
-
-```sh
-conda --version
-```
-
-If the version is displayed, Conda has been successfully installed.
-
-### Setting Up the Project in the Droplet
-
-Activate the base environment in Conda:
-
-```sh
-conda activate base
-```
-
-Create a new environment for your project:
-
-```sh
-conda create --name my-project-env
-```
-
-Activate the new environment:
-
-```sh
-conda activate my-project-env
-```
-
-Install Dagster and Dagit:
-
-```sh
-pip install dagster dagit
-```
-
-Create a new Dagster project:
-
-```sh
-dagster project scaffold --name my-dagster-project
-```
-
-Navigate to the project directory and install dependencies:
-
-```sh
-cd my-dagster-project
-pip install -e ".[dev]"
-```
-
-Launch the Dagster web server:
-
-```sh
-dagster-webserver
-```
-
-## Conclusion
-
-You have now successfully set up a Digital Ocean droplet with SSH access through VS Code, installed Conda, created a new Conda environment, and set up a Dagster project. You can now start developing and running your data pipelines with Dagster.
-
-Feel free to reach out if you have any questions or run into any issues!
-```
+You can now copy and paste this directly into your README file in your code editor.
